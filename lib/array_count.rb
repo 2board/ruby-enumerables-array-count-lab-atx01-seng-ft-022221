@@ -1,7 +1,7 @@
 def count_strings(array)
  index = 0 
  while index < array.count do
-   if array[index].is_a
+   if array[index].is_a?(String) == true
      
   # Return the total number of strings in the provided array using the count enumerable
 end
